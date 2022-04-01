@@ -30,6 +30,7 @@ target_include_directories(
 )
 
 target_compile_features(co_fs_co_fs INTERFACE cxx_std_20)
+target_compile_options(co_fs_co_fs INTERFACE fcoroutines)
 
 # ---- Install rules ----
 
