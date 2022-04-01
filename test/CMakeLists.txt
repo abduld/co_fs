@@ -17,7 +17,7 @@ endif()
 
 add_executable(co_fs_test source/co_fs_test.cpp)
 target_link_libraries(co_fs_test PRIVATE co_fs::co_fs)
-target_compile_features(co_fs_test PRIVATE cxx_std_17)
+target_compile_features(co_fs_test PRIVATE cxx_std_20)
 
 add_test(NAME co_fs_test COMMAND co_fs_test)
 
