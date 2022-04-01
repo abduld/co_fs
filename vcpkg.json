@@ -1,5 +1,5 @@
 {
-  "name": "mv",
+  "name": "co_fs",
   "version-semver": "0.1.0",
   "dependencies": [
     {
