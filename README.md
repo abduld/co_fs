@@ -16,3 +16,7 @@ See the [CONTRIBUTING](CONTRIBUTING.md) document.
 Please go to https://choosealicense.com/ and choose a license that fits your
 needs. GNU GPLv3 is a pretty nice option ;-)
 -->
+
+# Notes
+
+Uses [cmake-init](https://github.com/friendlyanon/cmake-init) as a starter
