@@ -3,11 +3,11 @@ name: Continuous Integration
 on:
   push:
     branches:
-    - master
+    - main
 
   pull_request:
     branches:
-    - master
+    - main
 
 env:
   VCPKG_COMMIT: af2287382b1991dbdcb7e5112d236f3323b9dd7a
