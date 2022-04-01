@@ -1,11 +1,11 @@
 #pragma once
 
 #include <string>
+#include <thread>
 
-/**
- * @brief Return the name of this header-only library
- */
-inline auto name() -> std::string
-{
-  return "co_fs";
-}
+namespace co_fs {
+  inline auto open(const std::string & path) -> void *
+  {
+    return nullptr;
+  }  
+} // namespace co_fs
